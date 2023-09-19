@@ -27,8 +27,6 @@
 % for Gantt charts
 \usepackage{pgfgantt}
 
-\usepackage{cleveref}
-
 % colors
 \definecolor{barblue}{RGB}{153,204,254}
 \definecolor{groupblue}{RGB}{51,102,254}
@@ -50,9 +48,16 @@
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \usepackage{multirow}
 \usepackage{pifont}
-\usepackage{wasysym}
+\usepackage[nointegrals]{wasysym}
 \usepackage{pstricks}
 \usepackage{wasysym}
+
+% ioannis
+\usepackage{amsmath}
+\usepackage{amsfonts} 
+\usepackage{bm}
+\usepackage{cleveref}
+\usepackage{hhline}
 
 \author{Your Name}
 \title{Bioengineering and Robotics PhD annual report template}
@@ -94,10 +99,18 @@ Curriculum: [curriculum name]}
 \large{\textbf{Year: }}\large{[academic year]}\vspace{0.2cm}\\
 \large{\textbf{Contacts: }}\large{{my.email@me.it}}
 \end{flushleft}
-\clearpage
+
+\vfill
 \begin{center}
-	\textbf{\normalsize{Title of your research project\\ (tentative)}}
+    {\large Genoa, 2023}
 \end{center}
+
+\clearpage
+    \begin{center}
+    \begin{large}
+    \textbf{Title of your research project}\\
+    \end{large}
+    \end{center}
 \section{Objectives [max 1 page]}
 Motivate your research and define the general goal of the research project (i.e., which is the addressed S/T question? \\
 Detail the specific objectives of the current year, and summarize the planned activities of the other two/one years.  
